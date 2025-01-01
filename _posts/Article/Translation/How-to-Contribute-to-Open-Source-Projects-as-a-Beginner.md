@@ -1,4 +1,5 @@
 原文： https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-as-a-beginner/
+
 翻译： Arthur Yeh
 
 # 如何作为初学者为开源项目做贡献
