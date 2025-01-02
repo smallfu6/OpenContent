@@ -1,14 +1,19 @@
 原文： https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-as-a-beginner/
 
-翻译： Arthur Yeh
+作者：Fanny Nyayic
+翻译：Arthur Yeh
+校对：小符 
+
+![opensource_1](./images/opensource_1.png)
 
 # 如何作为初学者为开源项目做贡献
 
-最近，我参加了一个开源峰会，在那里我有一个意想不到的发现。在一个关于社区贡献的小组讨论中，有人向观众提出了一个问题："你们中有多少人曾经为开源项目做过贡献？"只有少数人举手。看到大家对开源有如此大的热情，但却有这么多与会者不确定如何迈出第一步，这让我感到惊讶。
+最近，我参加了一个开源峰会，一个意外的发现让我印象深刻。在一次关于社区贡献的小组讨论中，向观众提出了一个问题：“你们中有多少人以前为开源项目做过贡献？” 只有少数人举手。虽然大家对开源的热情令人惊讶，但仍有许多参与者不确定如何迈出贡献的第一步。
+
 
 ## 目录
 
-* [被满屋子的潜力所启发](#被满屋子的潜力所启发)
+* [受一次小组讨论的启发](#受一次小组讨论的启发)
 * [简介](#简介)
 * [什么是开源？](#什么是开源)
 * [为开源做贡献的好处](#为开源做贡献的好处)
@@ -16,9 +21,9 @@
 * [非技术性的开源贡献](#非技术性的开源贡献)
 * [结语](#结语)
 
-## 被满屋子的潜力所启发
+## 受一次小组讨论的启发
 
-后来的交谈揭示了一个共同的主题，很多人感到害怕，认为需要成为专业程序员才能做出有意义的贡献。这次经历激发我写下这份指南，分解参与开源项目的过程，并说明任何人，无论其技术水平如何，都能在开源生态系统中发挥重要作用。
+随后的对话揭示了一个共同的主题：许多人感到畏惧，认为只有成为专家级的程序员才能做出有意义的贡献。这次经历激发了我写这本指南的灵感，旨在拆解贡献开源项目的过程，并展示无论技术能力如何，每个人都可以在开源生态系统中发挥重要作用。
 
 ## 简介
 
@@ -59,17 +64,24 @@
 
 1. **Git**：Git是一个版本控制系统，允许你跟踪代码更改并与他人协作。你可以从 [git-scm.com](git-scm.com) 安装 Git。
 
-   安装后，设置你的Git用户名和电子邮件：
+![opensource_2](./images/opensource_2.png)
+
+   安装后，设置你的 Git 用户名和电子邮件：
    ```bash
    git config --global user.name "你的名字"
    git config --global user.email "你的邮箱@example.com"
    ```
 
-2. **GitHub账户**：大多数开源项目托管在 GitHub上，所以需要在 github.com 创建一个账户。
+2. **GitHub账户**：大多数开源项目托管在 GitHub 上，所以需要在 [github.com](https://github.com/) 创建一个账户。
 
-3. **文本编辑器**：选择一个你将用来编写代码的文本编辑器或 IDE（集成开发环境）。流行的选择包括 Visual Studio Code、Sublime Text和JetBrains IDEs。
+![opensource_3](./images/opensource_3.png)
 
-4. **编程语言**：根据项目需要，你需要安装必要的编程语言。
+
+3. **文本编辑器**：选择一个你将用来编写代码的文本编辑器或 IDE（集成开发环境）。流行的选择包括 [Visual Studio Code](https://code.visualstudio.com/)、[Sublime Text](https://www.sublimetext.com/) 和 [JetBrains IDEs](https://www.jetbrains.com/)。
+
+![opensource_4](./images/opensource_4.png)
+
+4. **编程语言**：根据项目需要，你需要安装必要的编程语言。 例如，如果你正在处理 Python 项目，确保你的系统上安装了 Python。
 
 ### 步骤2：理解 Git 版本控制
 
@@ -95,13 +107,22 @@ git checkout -b my-feature-branch
 
 找到合适的项目是开始的关键。以下是一些寻找欢迎初学者的项目的方法：
 
-1. **GitHub Explore**：GitHub有一个"Explore"页面，你可以在那里找到热门仓库或按语言或兴趣搜索项目。
+1. **GitHub Explore**：GitHub有一个 [Explore](https://github.com/explore) 页面，可以找到热门仓库或按语言或兴趣搜索项目。
 
-2. **Good First Issues**：许多开源项目用"good first issue"标签标记适合初学者的问题。
+![opensource_5](./images/opensource_5.png)
 
-3. **开源社区**：像 First Timers Only 和 Up For Grabs 这样的网站列出了正在积极寻找初学者贡献者的开源项目。
+2. **Good First Issues**：许多开源项目用"good first issue"标签标记适合初学者的问题。可以通过在 GitHub 或其他平台上搜索“good first issues”来找到这些内容。
+
+![opensource_6](./images/opensource_6.png)
+
+3. **开源社区**：像 [First Timers Only](https://www.firsttimersonly.com/) 和 [Up For Grabs](http://up-for-grabs.net/) 这样的网站列出了正在积极寻找新手贡献者的开源项目。
+
+![opensource_7](./images/opensource_7.png)
 
 4. **查看文档**：寻找文档完善的项目。文档完善的项目更有可能指导你完成贡献过程。
+
+例如，如果你是一名 Python 开发人员，就可以为 Python 文档本身或 Requests 、 Flask 或 Django 等项目库做出贡献。
+ 
 
 ### 步骤4：了解项目
 
@@ -109,17 +130,29 @@ git checkout -b my-feature-branch
 
 1. **阅读README**：项目的 README 文件是你应该首先查看的地方。它提供项目概述、如何设置以及通常概述贡献指南。
 
+![opensource_8](./images/opensource_8.png)
+
 2. **检查问题**：查看项目 GitHub 仓库中的问题。问题通常是追踪错误、功能请求或任务的地方。寻找标签为`good first issue`或`beginner-friendly`的问题。
 
-3. **本地设置项目**：克隆仓库并在本地机器上设置项目，确保一切按 README 中描述的那样工作。
+![opensource_9](./images/opensource_9.png)
+
+3. **本地设置项目**：克隆仓库并在本地机器上设置项目，确保一切按 README 中描述的那样工作。例如，如果你正在开发 Python 项目，可能需要通过 **pip** 安装依赖项:
+
+```bash
+pip install -r requirements.txt
+```
 
 4. **阅读贡献指南**：许多项目都有贡献指南。这些指南可能涵盖编码风格、测试要求以及如何格式化提交消息等内容。
+
+![opensource_10](./images/opensource_10.png)
 
 ### 步骤5：做出你的第一个贡献
 
 现在来到有趣的部分，开始贡献！以下是具体步骤：
 
 1. **分叉仓库**：在 GitHub 上，点击"Fork"按钮创建项目的个人副本。
+
+![opensource_11](./images/opensource_11.png)
 
 2. **克隆你的分叉**：将你的分叉克隆到本地机器：
    ```bash
@@ -131,7 +164,18 @@ git checkout -b my-feature-branch
    git checkout -b my-branch
    ```
 
-4. **做出更改**：现在，做出你想贡献的更改。例如，如果你在修复bug，你可以编辑相应的文件。
+4. **做出更改**：现在，做出你想贡献的更改。例如，如果你在修复bug，你可以编辑相应的文件中的代码。如果你要更新文档，可以编辑 **README.md** 。
+	
+	假如你正在修复 **README.md** 文件中的拼写错误：
+	```bash
+	# Incorrect text
+	This is a sampe of a typo.
+	```
+	可以修改为：
+	```bash
+	# Corrected text
+    This is an example of a typo.
+	```
 
 5. **提交你的更改**：一旦做出更改，用清晰、简洁的消息提交它们：
    ```bash
@@ -139,7 +183,7 @@ git checkout -b my-feature-branch
    git commit -m "修复README中的错别字"
    ```
 
-6. **推送你的更改**：将更改推送到GitHub上的分叉：
+6. **推送你的更改**：将更改推送到GitHub上的分支：
    ```bash
    git push origin my-branch
    ```
@@ -148,7 +192,9 @@ git checkout -b my-feature-branch
 
 现在你的更改已推送到 GitHub，是时候提交它们供审查了。
 
-1. **转到原始仓库**：导航到原始仓库（不是你的分叉）。
+1. **转到原始仓库**：导航到原始仓库（不是你的分支）。
+
+![opensource_11](./images/opensource_11.png)
 
 2. **创建拉取请求**：GitHub通常会显示一个横幅，建议你的分支已准备好创建拉取请求。点击"Compare & pull request"按钮。
 
@@ -158,7 +204,7 @@ git checkout -b my-feature-branch
 
 ### 步骤7：回应反馈
 
-维护者可能会对你的拉取请求提供反馈。确保及时回应。如果他们要求更改，在本地进行更改，提交它们，并推送到你的分叉。
+维护者可能会对你的拉取请求提供反馈。确保及时回应。如果他们要求更改，在本地进行更改，提交它们，并推送到你的分支。
 
 例如：
 ```bash
